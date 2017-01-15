@@ -38,17 +38,10 @@ Or to see it working live visit-
 * Add upvote/downvote mechanism.
 * Add comments section using disqus. 
 
-~~~
- Markup : * Bullet list
-          * Bullet list item 2
-          * Bullet list item 3
-          * Bullet list item 4
-
-~~~
-```
 
 
 ## Deployment
+
 Install heroku on your system and to deploy :
 
 ```
