@@ -28,8 +28,7 @@ If the test suite passes, you'll be ready to run the app in a local server:
 ```
 $ rails server
 ```
-Or to see it working live visit-
-* [Raddit](https://radddit.herokuapp.com/)
+Or to see it working live visit- [Raddit](https://radddit.herokuapp.com/)
 
 ### Todos
 
@@ -42,7 +41,7 @@ Or to see it working live visit-
 
 ## Deployment
 
-Install heroku on your system and to deploy :
+Install heroku on your system and to create an app:
 
 ```
 $ heroku create
