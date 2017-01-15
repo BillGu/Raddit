@@ -1,24 +1,72 @@
-# README
+# Raddit
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Raddit is a simple link aggregator application scripted in ROR and deployed on heroku, where users can submit links and sort content based on tags/interests.
+You just need to simply create an account and login to submit/edit/delete a link.
 
-Things you may want to cover:
+## Getting Started
 
-* Ruby version
+To get started with the app, clone the repo and then install the needed gems:
 
-* System dependencies
+```
+$ bundle install --without production
+```
 
-* Configuration
+Next, migrate the database:
 
-* Database creation
+```
+$ rails db:migrate
+```
 
-* Database initialization
+Finally, run the test suite to verify that everything is working correctly:
 
-* How to run the test suite
+```
+$ rails test
+```
 
-* Services (job queues, cache servers, search engines, etc.)
+If the test suite passes, you'll be ready to run the app in a local server:
 
-* Deployment instructions
+```
+$ rails server
+```
+Or to see it working live visit-
+* [Raddit](https://radddit.herokuapp.com/)
 
-* ...
+### Todos
+
+* Improve frontend, add bootstrap and other styling.
+* Add sorting based on tags/interests.
+* Add upvote/downvote mechanism.
+* Add comments section using disqus. 
+
+~~~
+ Markup : * Bullet list
+          * Bullet list item 2
+          * Bullet list item 3
+          * Bullet list item 4
+
+~~~
+```
+
+
+## Deployment
+Install heroku on your system and to deploy :
+
+```
+$ heroku create
+```
+To rename your app:
+
+```
+$ heroku rename "new_app_name"
+```
+To deploy your app on the heroku server:
+
+```
+$ git push heroku master
+```
+
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
